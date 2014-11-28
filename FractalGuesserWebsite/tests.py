@@ -4,7 +4,7 @@ from django.http import HttpRequest
 from django.template.loader import render_to_string
 from django.test import TestCase
 
-from FractalGameWebsite.views import home_page
+from FractalGuesserWebsite.views import home_page
 
 def resolves_to_view(self, url, view):
 	found = resolve(url)

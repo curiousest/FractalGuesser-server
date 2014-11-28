@@ -7,7 +7,7 @@ urlpatterns = patterns('',
     # url(r'^blog/', include('blog.urls')),
 
     url(r'^admin/', include(admin.site.urls)),
-    url(r'^$', 'FractalGameWebsite.views.home_page', name='home'),
-    url(r'^generate_routes/', 'FractalGameWebsite.views.generate_routes', name='generate_routes'),
-    url(r'^api/', include('FractalGameAPI.urls')),
+    url(r'^$', 'FractalGuesserWebsite.views.home_page', name='home'),
+    url(r'^generate_routes/', 'FractalGuesserWebsite.views.generate_routes', name='generate_routes'),
+    url(r'^api/', include('FractalGuesserAPI.urls')),
 )

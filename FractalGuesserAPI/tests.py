@@ -4,8 +4,8 @@ from django.http import HttpRequest
 from django.template.loader import render_to_string
 from django.test import TestCase
 
-from FractalGameAPI.views import generate_route
-from FractalGameAPI.models import Route
+from FractalGuesserAPI.views import generate_route
+from FractalGuesserAPI.models import Route
 
 class RouteBuilder(TestCase):
   def test_insert_level_one(self):

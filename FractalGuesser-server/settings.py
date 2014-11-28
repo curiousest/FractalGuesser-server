@@ -36,8 +36,8 @@ INSTALLED_APPS = (
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'FractalGameWebsite',
-    'FractalGameAPI',
+    'FractalGuesserWebsite',
+    'FractalGuesserAPI',
 )
 
 MIDDLEWARE_CLASSES = (
@@ -50,9 +50,9 @@ MIDDLEWARE_CLASSES = (
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 )
 
-ROOT_URLCONF = 'FractalGame.urls'
+ROOT_URLCONF = 'FractalGuesser-server.urls'
 
-WSGI_APPLICATION = 'FractalGame.wsgi.application'
+WSGI_APPLICATION = 'FractalGuesser-server.wsgi.application'
 
 
 # Database

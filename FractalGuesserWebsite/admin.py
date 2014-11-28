@@ -1,4 +1,4 @@
 from django.contrib import admin
-from FractalGameAPI.models import MandelbrotRoute
+from FractalGuesserAPI.models import MandelbrotRoute
 
 admin.site.register(MandelbrotRoute)
