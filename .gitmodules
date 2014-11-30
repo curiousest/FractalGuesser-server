@@ -1,3 +1,3 @@
-[submodule "FractalGameWebsite/static/FractalGuesser-client"]
-	path = FractalGameWebsite/static/FractalGuesser-client
+[submodule "FractalGuesserWebsite/static/FractalGuesser-client"]
+	path = FractalGuesserWebsite/static/FractalGuesser-client
 	url = https://github.com/curiousest/FractalGuesser-client.git

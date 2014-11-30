@@ -1,3 +1,4 @@
 *~
-FractalGameWebsite/static/FractalGuesser-client/*.*
+FractalGuesserWebsite/static/FractalGuesser-client/*.*
 *.pyc
+FractalGuesser-server/settings.py
