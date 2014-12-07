@@ -4,7 +4,7 @@ from django.http import HttpRequest
 from django.template.loader import render_to_string
 from django.test import TestCase
 
-from FractalGuesserWebsite.views import home_page
+from FractalGuesserWebsite.views import home_page, mandelbrot, juliet
 
 def resolves_to_view(self, url, view):
 	found = resolve(url)
@@ -19,6 +19,8 @@ def returns_correct_html(self, template, view):
 class AllPagesTest(TestCase):
 	ALL_PAGES_DEF = [
 		{'url': '/', 'template': 'home.html', 'view': home_page},
+		{'url': '/game/juliet/', 'template': 'juliet.html', 'view': juliet},
+		{'url': '/game/mandelbrot/', 'template': 'mandelbrot.html', 'view': mandelbrot},
 	]
 	
 	def test_static_pages_resolve(self):

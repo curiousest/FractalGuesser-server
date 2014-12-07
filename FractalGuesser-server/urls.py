@@ -8,6 +8,8 @@ urlpatterns = patterns('',
 
     url(r'^admin/', include(admin.site.urls)),
     url(r'^$', 'FractalGuesserWebsite.views.home_page', name='home'),
-    url(r'^generate_routes/', 'FractalGuesserWebsite.views.generate_routes', name='generate_routes'),
     url(r'^api/', include('FractalGuesserAPI.urls')),
+    url(r'^game/', include('FractalGuesserWebsite.urls')),
+    url(r'^generate_routes/', 'FractalGuesserWebsite.views.generate_routes', name='generate_routes'),
+    
 )
